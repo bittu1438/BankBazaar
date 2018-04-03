@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="-1" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test name="Test(failed)">
+    <classes>
+      <class name="BankBazaar.CreditTest2">
+        <methods>
+          <include name="credittest2"/>
+        </methods>
+      </class> <!-- BankBazaar.CreditTest2 -->
+      <class name="BankBazaar.CreditTest">
+        <methods>
+          <include name="configuretest"/>
+        </methods>
+      </class> <!-- BankBazaar.CreditTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
